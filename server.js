@@ -9,7 +9,7 @@ const
   tasksRoutes = require('./routes/tasks.js'),
   listsRoutes = require('./routes/lists.js')
   cors = require('cors'),
-  mongoURL = process.env.MONGO_URL
+  mongoURL = process.env.MONGODB_URL
   PORT = process.env.PORT
 
 //Connect to mongodb
